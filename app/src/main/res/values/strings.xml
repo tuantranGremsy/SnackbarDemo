@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Snackbar Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_simple">Simple</string>
+    <string name="btn_withaction">With Action</string>
+    <string name="btn_custom">Custom</string>
+</resources>

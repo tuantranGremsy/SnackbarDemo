@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tuantrandev.tuantran.snackbardemo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:text="@string/btn_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="131dp"
+        android:id="@+id/btnSimple"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/btn_withaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/btnWithAction"
+        android:layout_below="@+id/btnSimple"
+        android:layout_alignLeft="@+id/btnSimple"
+        android:layout_alignStart="@+id/btnSimple" />
+
+    <Button
+        android:text="@string/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCustom"
+        android:layout_below="@+id/btnWithAction"
+        android:layout_alignLeft="@+id/btnWithAction"
+        android:layout_alignStart="@+id/btnWithAction"
+        android:layout_marginTop="11dp" />
+</RelativeLayout>
